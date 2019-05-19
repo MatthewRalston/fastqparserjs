@@ -1,0 +1,31 @@
+{
+  "name": "fastqparser",
+  "version": "1.0.0",
+  "description": "A simple fastq stream parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewRalston/fastqparserjs.git"
+  },
+  "keywords": [
+    "fastq",
+    "bioinformatics"
+  ],
+  "author": "Matthew Ralston <mrals89@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/MatthewRalston/fastqparserjs/issues"
+  },
+  "homepage": "https://github.com/MatthewRalston/fastqparserjs#readme",
+  "dependencies": {
+    "bl": "^3.0.0",
+    "concat-stream": "^2.0.0",
+    "pumpify": "^1.5.1",
+    "split2": "^3.1.1",
+    "through2": "^3.0.1",
+    "type-of-is": "^3.5.1"
+  }
+}
